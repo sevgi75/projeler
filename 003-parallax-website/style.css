@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+    height: 100%;
+  }
+  .img {
+    background-image: url(./img/bg.jpg);
+    min-height: 100%;
+  }
+  .img1 {
+    background-image: url(./img/bg1.jpg);
+    min-height: 100%;
+  }
+  .img2 {
+    background-image: url(./img/bg2.jpg);
+    min-height: 80%;
+  }
+  
+  .img3 {
+    background-image: url(./img/bg3.jpg);
+    min-height: 80%;
+  }
+  .img4 {
+    background-image: url(./img/bg4.jpg);
+    min-height: 80%;
+  }
+  
+  .img,
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: white;
+  }
+  
+  .heading-container1 {
+    background-color: black;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    text-transform: uppercase;
+    line-height: 5rem;
+  }
+  .heading-container2 {
+    background-color: black;
+    padding: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+    text-transform: uppercase;
+    line-height: 5rem;
+  }
+  .section--light {
+    background-color: rgb(241, 241, 241);
+    color: #666;
+  }
+  .section {
+    text-align: center;
+    padding: 3rem 5rem;
+  }
+  section {
+    display: block;
+  }
+  
+  h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  p {
+    padding: 30px;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 200px;
+  }
+  b {
+    font-weight: bold;
+  }
+  .heading-container-logo {
+    width: 30%;
+    margin: 1rem;
+  }
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  
+  .section--dark {
+    background-color: #282e34;
+    color: #ddd;
+  }
+  
+  marquee {
+    display: inline-block;
+    font-size: 30px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #edeeee, 0 0 20px #6d757c,
+      0 0 25px #d3b4a2, 0 0 30px #e6c400, 0 0 35px #e6a900;
+  }
+  
